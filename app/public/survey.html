@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>Fr-end Finder</title>
+ <!-- Latest compiled and minified CSS & JS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+ <script src="https://code.jquery.com/jquery.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+ <div class="container">
+   <div class="jumbotron" style="text-align: center">
+
+       <div class="center">
+       </style>
+     <h1 class="text-center"><span class="fa fa-cutlery"></span> Fr-end Finder</h1>
+     <h3 class="text-center">Its not the end, we will help you find a friend!</h3>
+     <hr>
+     <a href="/"><button class="btn btn-primary btn-lg"><span class="fa fa-plus" class="text-center"></span> Home Page</button></a>
+     </style>
+   </div>
+   </style>
+   </div>
+   </style>
+   <div class="card">
+        <div class="card-header">
+            <h3><strong>Let us help you find a friend! Please fill out the survey</strong></h3>
+        </div>
+        <div class="card-body">
+            <form class="needs-validation" novalidate>
+                    <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="email" class="form-control" id="name" aria-describedby="emailHelp" placeholder="Enter name">
+                          </div>
+                          <div class="form-group">
+                            <label for="name">Photo <Link></Link></label>
+                            <input type="email" class="form-control" id="photo" aria-describedby="emailHelp" placeholder="Photo Link">
+                          </div>
+                          <div class="form-group">
+                            <label for="question1">Example multiple select</label>
+                            <select  class="form-control" id="question1">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question2">Example multiple select</label>
+                            <select  class="form-control" id="question2">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question3">Example multiple select</label>
+                            <select class="form-control" id="question3">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question4">Example multiple select</label>
+                            <select  class="form-control" id="question4">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question5">Example multiple select</label>
+                            <select  class="form-control" id="question5">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="qestion6">Example multiple select</label>
+                            <select class="form-control" id="question6">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question7">Example multiple select</label>
+                            <select class="form-control" id="question7">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question8">Example multiple select</label>
+                            <select class="form-control" id="question8">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question9">Example multiple select</label>
+                            <select class="form-control" id="question9">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                          <div class="form-group">
+                            <label for="question10">Example multiple select</label>
+                            <select class="form-control" id="question10">
+                              <option>1</option>
+                              <option>2</option>
+                              <option>3</option>
+                              <option>4</option>
+                              <option>5</option>
+                            </select>
+                          </div>
+                <button type="submit" class="btn btn-primary" id="add-btn">Submit</button>
+              </form>
+        </div>
+    </div>
+      <footer class="footer">
+              <div class="container">
+              <p>
+              <a href="/api/friends">API Friends List</a> |
+   
+              </p>
+            </footer>
+      </div>
+      <div class="modal" id="myModal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Your best friend is:</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p>
+                <h2 id="bestFriendName"></h2>
+						<img id="bestFriendPhoto" src="#">
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+      <script type="text/javascript">
+        $("#add-btn").on("click", function(event) {
+          event.preventDefault();
+          var newSurvey = {
+            name: $("#name").val().trim(),
+            photo:$("#photo").val().trim(),
+            scores:[
+                $("#question1").val().trim(),
+                $("#question2").val().trim(),
+                $("#question3").val().trim(),
+                $("#question4").val().trim(),
+                $("#question5").val().trim(),
+                $("#question6").val().trim(),
+                $("#question7").val().trim(),
+                $("#question8").val().trim(),
+                $("#question9").val().trim(),
+                $("#question10").val().trim(),
+            ]
+          };
+          var currentURL = window.location.origin;
+          $.post(currentURL+ "/api/friends", newSurvey)
+            .then(function(data) {
+              console.log("survey.html", data);
+              alert("Adding survey...");
+              $("#bestFriendName").text(data.name);
+				  $("#bestFriendPhoto").attr("src", data.photo);
+              $('#myModal').modal('show')
+            });
+        });
+      </script>
+   
+   </body>
+   
+   
+   
+   
+   </html>
