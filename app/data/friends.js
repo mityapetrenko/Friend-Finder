@@ -2,7 +2,7 @@
 var friends=[
     {
         name: "dima",
-        photo:"",
+        photo:"https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
         scores: [
             1,
             3,
@@ -19,7 +19,7 @@ var friends=[
     },
     {
         name: "Joe",
-        photo:"",
+        photo:"https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
         scores:[
             2,
             3,
@@ -35,7 +35,7 @@ var friends=[
     },
     {
         "name": "Mary",
-        "photo": "",
+        "photo": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_960_720.png",
         "scores": [
         5,
         4,

@@ -46,8 +46,7 @@ app.get("/api/friends", function(req, res) {
     }  
   
   friends.push(newSurvey);
-  
-  // res.json({bestFriendName: bestFriendName , bestFriendPhoto:bestFriendPhoto});
+
   res.json(friends[bestFriend]);
   console.log(" friends" +friends);
 });
